@@ -97,7 +97,7 @@ named EngineeringWebservers
   * Load balance incoming requests on port 80 and send to instance port 80 using the
 http protocol.
   * Load balancer health check via http on port 80 to the "/" url location.
-  * Also with the Load Balancing Listener
+  * Also with the Load Balancer Listener
   ```
   "EngineeringLB": {
       "Type": "AWS::ElasticLoadBalancingV2::LoadBalancer",
